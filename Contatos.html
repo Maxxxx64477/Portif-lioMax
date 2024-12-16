@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="Style_Contatos.css">
+  <link rel="shortcut icon" href="Imagens/Contatos.png" type="image/x-icon">
+  <title>Contatos</title>
+</head>
+
+<body>
+  <header id="menu">
+
+    <img class="logo" src="Imagens/Max.jpg" alt="">
+
+    <h1>Portfólio e Curriculo</h1>
+    <h2>Max Antonio Nunes Santos</h2>
+    <br>
+
+    <nav>
+      <ul>
+        <a href="index.html" class="links">Curriculo</a>
+
+        <a href="Portfolio.html" class="links">Portfólio</a>
+
+        <a href="Contatos.html" class="links">Contatos</a>
+    </nav>
+
+    
+  </header>
+
+  <div class="info01">
+    <ul>
+    <h3>Informaçoes Pessoais</h3>
+    <li>Endereço: Rua Manoel Rodrigues Santiago Numero: 911 Cidade: São Paulo, Estado: SP </li>
+    <li>Telefone: (11) 98147-4436 </li>
+    <li>E-mail: Maxnunes934@gmail.com</li>
+    <li>Brasileiro e Solteiro</li>
+    </ul>
+  </div>
+
+  <Main>
+<div>
+
+<form action="">
+<fieldset id="contatos">
+<legend>Formulário de clientes</legend>
+<p>
+<label>Nome:</label>
+
+
+<input type="text" name="Nome" id="cNome" size="40" maxlength="40" placeholder="Digite o seu nome completo" required>
+</p>
+
+<p>
+  <label>Senha:</label>
+
+
+  <input type="password" name="Senha" id="cSenha" size="25" maxlength="25" placeholder="Digite aqui sua senha" required>
+  </p>
+
+
+<p>
+    <label>E-mail:</label>
+    
+    <input type="email" name="email" id="cemail" size="36" maxlength="36" placeholder="Digite aqui seu E-mail" required>
+    </p>
+ 
+<fieldset id="sexo">
+  <legend>Sexo</legend>
+  <p>
+  <input type="radio" name="Sexo" id="cSexo"> <label>Masculino</label>
+  </p>
+  <p>
+  <input type="radio" name="Sexo" id="cSexo"> <label>Feminino</label>
+  </p>
+  <p>
+  <input type="radio" name="Sexo" id="cSexo"> <label>Outros</label>
+  </p>
+
+ 
+</fieldset>
+
+  <p>
+  <label>Data de nascimento:</label>
+  <input type="date" name="nasc" id="cnasc">
+</p>
+ </fieldset>
+
+<fieldset id="endereço"> 
+  <legend>Endereço do usuario</legend>
+  <p>
+  <label>Logradouro:</label>
+  <input type="text" name="rua" id="crua" size="50" maxlength="50" placeholder="Rua, Trav, Av...">
+</p>
+<p>
+  <label>Numero:</label>
+  <input type="text" name="num" id="cnum" size="5" maxlength="5" " min="1" max="9999">
+</p>
+
+<p>
+<Label>Estado:</Label>
+<select name="estado" id="cestado">
+<option value="AC">Acre</option>
+<option value="AL">Alagoas</option>
+<option value="AP">Amapá</option>
+<option value="AM">Amazonas</option>
+<option value="BA">Bahia</option>
+<option value="CE">Ceará</option>
+<option value="DF">Distrto federal</option>
+<option value="ES">Espirito santo</option>
+<option value="GO">Goiás</option>
+<option value="MA">Maranhão</option>
+<option value="MT">Mato grosso</option>
+<option value="MS">Mato grosso do Sul</option>
+<option value="MG">Minas Gerais</option>
+<option value="PA">Pará</option>
+<option value="PB">Paraíba</option>
+<option value="PR">Paraná</option>
+<option value="PE">Pernambuco</option>
+<option value="PI">Piauí</option>
+<option value="RJ">Rio de janeiro</option>
+<option value="RN">Rio grande do norte</option>
+<option value="RS">Rio grande do sul</option>
+<option value="RO">Rondônia</option>
+<option value="RR">Roraima</option>
+<option value="SC">Santa catarina</option>
+<option value="SP">São paulo</option>
+<option value="SE">Sergipe</option>
+<option value="TO">Tocantins</option>
+</select>
+</p>
+
+<p>
+  <label>Cidade:</label>
+  <input type="text" name="cidade" id="ccid" size="20" maxlength="20" placeholder="Digite a sua cidade">
+</p>
+
+</fieldset>
+
+<fieldset id="mensagem">
+<legend>Mensagem do usuario</legend>
+<textarea name="msg" id="cmsg" cols="50" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+</fieldset>
+
+
+
+<input type="button" value="Enviar" class="btn">
+<input type="reset" value="Limpar" class="btn">
+
+</form>
+
+</div>
+
+
+  </Main>
+
+  <footer>
+    <li>Designer Max Antonio, Portfólio - 2024
+      Versão on-line vscode.dev</p>
+      </ul>
+  </footer>
+
+</body>

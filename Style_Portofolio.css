@@ -1,0 +1,32 @@
+.Grafico{
+display: block;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+.links02{
+background-color: #fff;
+margin-top: 1rem;
+margin-right: 0.6rem;
+margin-left: 21rem;
+padding: 1rem 0.8rem;
+border-radius: 1rem;
+box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.8);
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+.links02 a{
+text-decoration: none;
+color: black;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+.vl{
+height: 1.5rem;
+border-left: 1px solid #000;
+}
